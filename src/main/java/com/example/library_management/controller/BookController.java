@@ -29,6 +29,6 @@ public class BookController {
     public ResponseEntity addBook(@RequestBody Book book){
         bookService.addBook(book);
         return ResponseEntity.status(201).body(new
-                ResponseAPI("New book create",201));
+                ResponseAPI("New Book created",201));
     }
 }

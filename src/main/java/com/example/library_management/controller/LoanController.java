@@ -30,10 +30,10 @@ public class LoanController {
 
         if(!isLoanAdded){
             return ResponseEntity.status(400).body(new
-                    ResponseAPI("Book or user is not present ",400));
+                    ResponseAPI("Book Or User is Not Present ",400));
         }
         return ResponseEntity.status(201).body(new
-                ResponseAPI("New loan created",201));
+                ResponseAPI("New Loan Created",201));
     }
 
     @PostMapping("return-loan/{loanId}")

@@ -28,6 +28,6 @@ public class AuthorController {
     public ResponseEntity addAuthor(@RequestBody Author author){
         authorService.addAuthor(author);
         return ResponseEntity.status(201).body(new
-                ResponseAPI("New author create",201));
+                ResponseAPI("New Author created",201));
     }
 }
