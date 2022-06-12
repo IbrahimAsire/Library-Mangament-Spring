@@ -20,7 +20,7 @@ import java.io.IOException;
 @Configuration
 @EnableWebSecurity
 public class SecurityConfig extends WebSecurityConfigurerAdapter {
-
+//here I should review all this
     private final MyUserDetailsService myUserDetailsService;
 
     public SecurityConfig(MyUserDetailsService myUserDetailsService) {

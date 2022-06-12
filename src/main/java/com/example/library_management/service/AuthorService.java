@@ -10,7 +10,7 @@ import java.util.List;
 
 @Service
 public class AuthorService {
-
+//also all service really them thing great but i don't know concept them
     private final AuthorRepository authorRepository;
 
     public AuthorService(AuthorRepository authorRepository) {

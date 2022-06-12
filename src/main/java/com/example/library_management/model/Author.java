@@ -10,7 +10,7 @@ import java.util.Set;
 @AllArgsConstructor @NoArgsConstructor @Data
 @Entity
 public class Author {
-
+//Here and all Model should i know also how bulid
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Integer id;
