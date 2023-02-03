@@ -8,7 +8,7 @@ import com.example.library_management.service.LoanService;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
-//this program also not work on Decthirtieth
+//this program also does not work
 @RestController
 @RequestMapping("api/v1")
 public class LoanController {
